@@ -1,10 +1,10 @@
-SRC = main.cpp
+SRC = main.cpp Weapon.cpp HumanA.cpp HumanB.cpp
 
 CC = c++
 
 OBJ = $(SRC:%.cpp=./.build/%.o)
 
-NAME = bank
+NAME = weapon
 
 RM = rm -rf
 

@@ -4,7 +4,7 @@ CC = c++
 
 OBJ = $(SRC:%.cpp=./.build/%.o)
 
-NAME = bank
+NAME = brain
 
 RM = rm -rf
 

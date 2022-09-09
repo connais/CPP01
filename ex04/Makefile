@@ -1,10 +1,10 @@
-SRC = zombieHorde.cpp Zombie.cpp main.cpp
+SRC = main.cpp
 
 CC = c++
 
 OBJ = $(SRC:%.cpp=./.build/%.o)
 
-NAME = brains
+NAME = sed
 
 RM = rm -rf
 

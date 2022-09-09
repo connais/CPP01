@@ -1,10 +1,10 @@
-SRC = zombieHorde.cpp Zombie.cpp main.cpp
+SRC = main.cpp Harl.cpp
 
 CC = c++
 
 OBJ = $(SRC:%.cpp=./.build/%.o)
 
-NAME = brains
+NAME = HarlFilter
 
 RM = rm -rf
 
